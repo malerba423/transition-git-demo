@@ -1,0 +1,11 @@
+# dont FTP gitignore files
+.gitignore
+*/.gitignore
+*/.gitkeep
+
+# dont FTP git-ftp-ignore files
+.git-ftp-ignore
+.git-ftp-include
+
+# dont FTP files in this directory
+/ignoreme/*
