@@ -1,5 +1,3 @@
-# transition-website-test
-
 # steps to get set up for doing development
 
 1. install github desktop. You can use all the defaults when installing Github Desktop.
@@ -24,8 +22,7 @@
 
    > open `git bash`
 
-   > navigate to the directory from step two: e.g. ...<br/>
-   > `cd ~/Documents/Github/transition-website-test`
+   > in the git bash console, navigate to the directory from step two: e.g. ...<br/> `cd ~/Documents/Github/transition-website-test`
 
    > run the following commands:
 
