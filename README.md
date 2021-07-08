@@ -12,11 +12,7 @@
 
    > click the **Open with Github Desktop** button
 
-   > it will download the code and by default it will be saved to this directory
-
-   ```
-   C:/Users/.../Documents/Github/transition-git-demo
-   ```
+   > it will download the code and by default it will be saved to this directory `C:/Users/...../Documents/Github/transition-git-demo` directory
 
 3. install git and git-ftp. You can use all the defaults when installing git and git-ftp.
 
