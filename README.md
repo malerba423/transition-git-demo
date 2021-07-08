@@ -14,7 +14,7 @@
 
    > it will download the code and by default it will be saved to the `/Documents/Github/transition-website-test` directory
 
-3. install git and git-ftp. You can use all the defaults when installing Git.
+3. install git and git-ftp. You can use all the defaults when installing git and git-ftp.
 
    > see instructions here:<br/> https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md
 
