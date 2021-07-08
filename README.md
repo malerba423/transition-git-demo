@@ -8,9 +8,9 @@
 
    > https://github.com/malerba423/transition-website-test/
 
-   > click the green `Code` button
+   > click the green **Code** button
 
-   > click the `Open with Github Desktop` button
+   > click the **Open with Github Desktop** button
 
    > it will download the code and by default it will be saved to the `/Documents/Github/transition-website-test` directory
 
@@ -20,7 +20,7 @@
 
 4. add git ftp environment configurations
 
-   > open `git bash`
+   > open **git bash**
 
    > in the git bash console, navigate to the directory from step two: e.g. ...<br/> `cd ~/Documents/Github/transition-website-test`
 
