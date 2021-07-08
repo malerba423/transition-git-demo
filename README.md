@@ -22,7 +22,11 @@
 
    > open **git bash**
 
-   > in the git bash console, navigate to the directory from step two: e.g. ... `cd ~/Documents/Github/transition-git-demo`
+   > in the git bash console, navigate to the directory from step two: e.g. ...
+
+   ```
+   cd ~/Documents/Github/transition-git-demo
+   ```
 
    > run the following commands:
 
