@@ -22,6 +22,6 @@
 
    > open **git bash**
 
-   > in the git bash console, navigate to the directory from step two: e.g. ...<br/><br/> `cd ~/Documents/Github/transition-git-demo`
+   > in the git bash console, navigate to the directory from step two: e.g. ...<br/> `cd ~/Documents/Github/transition-git-demo`
 
-   > run the following commands: <br/><br/> `git config git-ftp.dev.user your-ftp-user-here` <br/> `git config git-ftp.dev.password your-ftp-password-here` <br/> `git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest`
+   > run the following commands: <br/> `git config git-ftp.dev.user your-ftp-user-here` <br/> `git config git-ftp.dev.password your-ftp-password-here` <br/> `git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest`
