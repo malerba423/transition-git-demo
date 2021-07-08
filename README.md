@@ -6,13 +6,13 @@
 
 2. download the code repository
 
-   > https://github.com/malerba423/transition-website-test/
+   > https://github.com/malerba423/transition-git-demo/
 
    > click the green **Code** button
 
    > click the **Open with Github Desktop** button
 
-   > it will download the code and by default it will be saved to the `/Documents/Github/transition-website-test` directory
+   > it will download the code and by default it will be saved to this directory `C:/Users/...../Documents/Github/transition-git-demo` directory
 
 3. install git and git-ftp. You can use all the defaults when installing git and git-ftp.
 
@@ -22,12 +22,16 @@
 
    > open **git bash**
 
-   > in the git bash console, navigate to the directory from step two: e.g. ...<br/> `cd ~/Documents/Github/transition-website-test`
+   > in the git bash console, navigate to the directory from step two: e.g. ...
+
+   ```
+   cd ~/Documents/Github/transition-git-demo
+   ```
 
    > run the following commands:
 
-   > `git config git-ftp.dev.user your-ftp-user-here`
-
-   > `git config git-ftp.dev.password your-ftp-password-here`
-
-   > `git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest`
+   ```
+   git config git-ftp.dev.user your-ftp-user-here
+   git config git-ftp.dev.password your-ftp-password-here
+   git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest
+   ```
