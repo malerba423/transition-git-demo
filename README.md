@@ -16,7 +16,7 @@
 
 3. Install git and git-ftp. You can use all the defaults when installing git and git-ftp. Git is a source control management system. Git is what lets us version our files easily. We can version files, maintain visibility of old versions of files, and not have to do the underscore naming that we have been doing. Git-ftp is a tool that allows us to FTP only files that have changed since the last FTP, rather than blindly uploading everything again.
 
-   > see instructions here:<br/> https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md
+   > see install instructions here:<br/> https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md
 
 4. Add git ftp environment configurations
 
