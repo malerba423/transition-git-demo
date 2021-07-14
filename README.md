@@ -35,3 +35,28 @@
    git config git-ftp.dev.password your-ftp-password-here
    git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest
    ```
+
+5. These are some zsh functions that you may want to add. Possibly would need bash or powershell versions?
+
+   > `push-dev` function that accepts a branch name and pushes that branch to dev env. if no branch is supplied it defaults to master
+
+   ```
+   function push-dev () {
+     branch=$1
+     if [ "$branch" = "" ]; then
+       branch="master"
+     fi
+
+     echo "pushing $branch to dev environment..."
+     git ftp push -s dev -b $branch;
+   }
+   ```
+
+   > `push-prod` function that always pushes master to prod env
+
+   ```
+   function push-prod () {
+     echo "pushing master to prod environment..."
+     git ftp push -s prod -b master;
+   }
+   ```
