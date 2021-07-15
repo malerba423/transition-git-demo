@@ -65,7 +65,7 @@
 
    ```
    function compare-dev () {
-     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}..HEAD;"
+     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...HEAD;"
    }
    ```
 
@@ -73,6 +73,6 @@
 
    ```
    function compare-prod () {
-     git ftp -s prod log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}..HEAD;"
+     git ftp -s prod log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...HEAD;"
    }
    ```
