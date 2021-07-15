@@ -60,3 +60,11 @@
      git ftp push -s prod -b master;
    }
    ```
+
+   > `compare-dev` function that compares current contents of DEV server to master branch
+
+   ```
+   function compare-dev () {
+     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...HEAD;"
+   }
+   ```
