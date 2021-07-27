@@ -37,7 +37,7 @@
    ```
 
 5. These are some bash functions that you'll probably want to add. 
-    > open git bash <br/>
+    > open git bash and run the following two commands: <br/>
     > `touch .bash_profile`  <br/>
     > `notepad .bash_profile`  <br/>
     > copy and paste the functions below into .bash_profile and then save. Next time you open git bash, the functions will be saved / available
