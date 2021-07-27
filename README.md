@@ -36,7 +36,7 @@
    git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest
    ```
 
-5. These are some bash functions that you'll probably want to add:
+5. These are some bash functions that you'll probably want to add: 
     > open git bash and run the following two commands: <br/>
     > `touch .bash_profile`  <br/>
     > `notepad .bash_profile`  <br/>
