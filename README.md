@@ -61,7 +61,7 @@
    }
    ```
 
-   > `compare-dev` function that compares current contents of DEV server to master branch
+   > `compare-dev` function that compares current contents of DEV server to a given branch. if no branch is supplied it defaults to master
 
    ```
    function compare-dev () {
