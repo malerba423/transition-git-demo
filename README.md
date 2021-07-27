@@ -56,15 +56,6 @@
    }
    ```
 
-   > `push-prod` function that always pushes master to prod env
-
-   ```
-   function push-prod () {
-     echo "pushing master to prod environment..."
-     git ftp push -s prod -b master;
-   }
-   ```
-
    > `compare-dev` function that compares current contents of DEV server to a given branch. if no branch is supplied it defaults to master
 
    ```
@@ -73,14 +64,8 @@
      if [ "$branch" = "" ]; then
        branch="master"
      fi
-     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...$branch;"
+     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "start chrome https://github.com/malerba423/transition-git-demo/compare/{}...$branch;"
    }
    ```
 
-   > `compare-prod` function that compares current contents of PROD server to master branch
-
-   ```
-   function compare-prod () {
-     git ftp -s prod log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...master;"
-   }
-   ```
+   > We'll want to make similar functions for Prod, but for Prod I think we should only allow pushing master. And as such we should probably hardwire the prod compare function to compare existing prod and master, since master will be the only thing ever getting pushed to prod.
