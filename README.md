@@ -36,7 +36,11 @@
    git config git-ftp.dev.url ftp.transitionbikesdev.com/JoelTest
    ```
 
-5. These are some zsh functions that you may want to add. Possibly would need bash or powershell versions?
+5. These are some bash functions that you'll probably want to add. 
+    > open git bash <br/>
+    > `touch .bash_profile`  <br/>
+    > `notepad .bash_profile`  <br/>
+    > copy and paste the functions below into .bash_profile and then save. Next time you open git bash, the functions will be saved / available
 
    > `push-dev` function that accepts a branch name and pushes that branch to dev env. if no branch is supplied it defaults to master
 
