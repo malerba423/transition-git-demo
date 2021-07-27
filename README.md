@@ -65,7 +65,11 @@
 
    ```
    function compare-dev () {
-     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...master;"
+     branch=$1
+     if [ "$branch" = "" ]; then
+       branch="master"
+     fi
+     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "echo https://github.com/malerba423/transition-git-demo/compare/{}...$branch;"
    }
    ```
 
