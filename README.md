@@ -64,7 +64,7 @@
      if [ "$branch" = "" ]; then
        branch="master"
      fi
-     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} sh -c "start chrome https://github.com/malerba423/transition-git-demo/compare/{}...$branch;"
+     git ftp -s dev log | head -1 | grep -o -e " .*" | xargs -I {} open -a "google chrome" "https://github.com/malerba423/transition-git-demo/compare/{}...$branch"
    }
    ```
 
